@@ -7,8 +7,8 @@ const ticking = () =>{
   const hours = now.getHours();
   const minutes = now.getMinutes();
   const seconds = now.getSeconds();
- const p = `<h1>In case you for get Time, it is</h1>
- <p><span>${hours}h :</span> <span>${minutes}min :</span> <span>${seconds}sec</span> </p>`
+ const p = `<h1>IN CASE YOU FORGET TIME</h1>
+ <p><span class="hours">${hours}h :</span> <span class="minutes">${minutes}min :</span> <span class="seconds">${seconds}sec</span> </p>`
   clock.innerHTML= p;
 
 }
