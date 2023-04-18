@@ -20,3 +20,5 @@ const ticking = () =>{
 // we are going to use the method called setInterval.
 
 setInterval(ticking, 1000);
+
+// then formating time in the right way it is somehow hard then we can just use the so called js library called dates fns
